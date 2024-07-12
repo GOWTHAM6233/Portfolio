@@ -1,26 +1,22 @@
-// scripts.js
-
-document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('nav ul li a');
+document.addEventListener('DOMContentLoaded', function () {
     const menuIcon = document.getElementById('menu-icon');
-    const nav = document.getElementById('nav-links');
+    const navLinks = document.getElementById('nav-links');
 
-    menuIcon.addEventListener('click', () => {
-        nav.classList.toggle('show');
+    menuIcon.addEventListener('click', function () {
+        navLinks.classList.toggle('active');
     });
 
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = e.target.getAttribute('href').substring(1);
-            const targetSection = document.getElementById(targetId);
+    // Roles sliding animation
+    const roles = ["Front-end Web Developer", "Trader", "React Enthusiast"];
+    let roleIndex = 0;
+    const roleElement = document.getElementById('role');
 
-            window.scrollTo({
-                top: targetSection.offsetTop,
-                behavior: 'smooth'
-            });
+    function slideRoles() {
+        roleElement.textContent = roles[roleIndex];
+        roleIndex = (roleIndex + 1) % roles.length;
+    }
 
-            nav.classList.remove('show');
-        });
-    });
+    slideRoles(); // Initial call
+
+    setInterval(slideRoles, 3000); // Slide every 3 seconds
 });

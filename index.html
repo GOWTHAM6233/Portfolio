@@ -4,86 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gowtham P - Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="background">
     <header>
         <h1>Gowtham P</h1>
         <nav>
-            <div class="menu-icon" id="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
             <ul id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#visionary">Visionary</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio! I specialize in front-end web development and have a keen interest in trading.</p>
-    </section>
-
-    <section id="home">
-        <img src="D:\Projects\portfolio-Website\img\DSC_0187 (1).jpg" alt="Profile Photo" class="profile-photo">
-        <h2 class="home-name">GOWTHAM P</h2>
-        <div class="role-container">
-            <div class="animated-role">
-                <span>Front-end Web Developer</span>
-                <span>Trader</span>
-                <!-- Add more roles as needed -->
+    <section id="home" class="home-container">
+        <div class="image-container">
+            <h1 class="welcome-text">Welcome to my portfolio</h1>
+            <h3 class="intro-text">Let's know about me</h3>
+            <img src="D:/Projects/portfolio-Website/img/DSC_0187 (1).jpg" alt="Profile Photo" class="profile-photo">
+            <h2 class="home-name">GOWTHAM P</h2>
+        </div>
+        <div class="content-container">
+            <div class="introduction-box">
+                <p>Hi, I am Gowtham P</p>
+                <div class="animated-role">
+                    <span id="role1">Front-end Web Developer</span>
+                    <span>&</span>
+                    <span id="role2">Trader</span>
+                </div>
+                <p>A skilled React developer with a strong portfolio, passionate about staying updated on frontend tech. Collaborative and committed to quality, you thrive in dynamic teams. Eager to contribute creativity and bring innovative ideas to life.</p>
             </div>
         </div>
     </section>
 
     <section id="introduction">
-        <h2>Introduction</h2>
-        <p>Hi, I'm Gowtham P, a passionate Front-end Web Developer and Trader with skills in HTML, CSS, Java (basics), Git and GitHub, JavaScript, React.js, SQL, and trading.</p>
+        <div class="section-container">
+            <h2>Introduction</h2>
+            <p>
+                Hi, I'm Gowtham P! As a seasoned Front-end Web Developer and Trader, I bring a blend of technical expertise and financial acumen to the table. With a strong foundation in HTML, CSS, JavaScript, and React.js, I specialize in crafting seamless user experiences and responsive interfaces that captivate and engage users. My proficiency extends to Git and GitHub, ensuring robust version control and collaborative development practices.
+                Driven by a passion for innovation, I thrive in dynamic environments where I can leverage my skills to build scalable solutions and stay at the forefront of technology trends. Whether it's optimizing UI/UX designs or analyzing market trends for informed trading decisions, I am dedicated to delivering excellence and fostering growth.
+                I am enthusiastic about exploring new technologies, collaborating with diverse teams, and pushing boundaries to create impactful digital experiences. Let's connect and explore how we can bring your ideas to life!
+            </p>
+        </div>
     </section>
 
+    <hr>
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Java (basics)</li>
-            <li>Git and GitHub</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>SQL</li>
-            <li>Trading</li>
-        </ul>
+        <div class="section-container">
+            <h2>Skills</h2>
+            <div class="skills-category">
+                <h3>Programming</h3>
+                <ul class="skills-list">
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-java-logo-48.png" alt="Java"><span>Java</span></li>
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-html-logo-48.png" alt="HTML"><span>HTML</span></li>
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-css-logo-48.png" alt="CSS"><span>CSS</span></li>
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-javascript-48.png" alt="JavaScript"><span>JavaScript</span></li>
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-sql-48.png" alt="SQL"><span>SQL</span></li>
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-neutral-trading-64.png" alt="MongoDB"><span>MongoDB (Basics)</span></li>
+                </ul>
+            </div>
+
+            <div class="skills-category">
+                <h3>Frameworks</h3>
+                <ul class="skills-list">
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-react-16.png" alt="React.js"><span>React.js</span></li>
+                </ul>
+            </div>
+
+            <div class="skills-category">
+                <h3>Tools</h3>
+                <ul class="skills-list">
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-visual-studio-code-2019-48.png" alt="VS Code"><span>VS Code</span></li>
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-git-logo-48.png" alt="Git"><span>Git</span></li>
+                    <li class="skill-box"><img src="D:/Projects/portfolio-Website/logo/icons8-github-24.png" alt="GitHub"><span>GitHub</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="visionary">
+        <div class="section-container visionary-container">
+            <div class="visionary-box">
+                <h2>Visionary</h2>
+                <div class="visionary-content">
+                    <div class="visionary-item">
+                        <h3>Personalisation</h3>
+                        <p>
+                            As a budding React virtuoso, I'm fervently dedicated to crafting web experiences that transcend the ordinary, infusing every pixel with elegance and enchantment. My unwavering passion for unraveling intricate challenges fuels my odyssey in the realm of front-end wizardry. The prospect of harmonizing with a dynamic ensemble, while imbibing wisdom from industry sages, thrills me as I amplify my proficiencies in this ever-mutating domain.
+                        </p>
+                    </div>
+                    <div class="visionary-item">
+                        <h3>Reason to hire me</h3>
+                        <p>
+                            Aspiring React Frontend Developer passionate about crafting exceptional user experiences. I bring fresh perspectives, boundless ambition, and unconventional thinking to every project. My goal is to create digital magic through energetic, Innovative work. Let's connect and embark on a journey to bring unique.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Personal Portfolio</h3>
-            <p>Description of your personal portfolio project.</p>
-        </div>
-        <!-- Add more projects as needed -->
-        <div class="resume-buttons">
-            <a href="D:\Projects\portfolio-Website\img\RESUME NEW.pdf" target="_blank" class="btn">View Resume</a>
-            <a href="D:\Projects\portfolio-Website\img\RESUME NEW.pdf" download="GowthamP_Resume.pdf" class="btn">Download Resume</a>
+        <div class="section-container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Personal Portfolio</h3>
+                <hr>
+                <h4>Project 1</h4>
+                <p>My personal portfolio showcases my skills and experience as a front-end web developer and trader. Designed with a clean and modern layout, it highlights my proficiency in HTML, CSS, JavaScript, and React.js through interactive sections and smooth navigation. The portfolio includes categorized skills—Programming (Java, HTML, CSS, JavaScript, SQL, MongoDB basics), Frameworks (React.js), and Tools (VS Code, Git, GitHub)—demonstrating my technical capabilities. Each section provides insights into my projects, professional journey, and contact information, reflecting my commitment to quality, creativity, and continuous learning in web development and trading.</p>
+                <h4>Project link<a href="https://github.com/GOWTHAM6233/Portfolio-website.git">: Personal portfolio</a></h4>
+            </div>
         </div>
     </section>
+    
+    <hr>
+    <section id="resume">
+        <div class="section-container">
+            <h2>Resume</h2>
+            <div class="resume-buttons">
+                <a href="D:/Projects/portfolio-Website/img/RESUME NEW.pdf" target="_blank" class="btn">View Resume</a>
+                <a href="D:/Projects/portfolio-Website/img/RESUME NEW.pdf" download="GowthamP_Resume.pdf" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:gowthamp669@gmail.com">gowthamp669@gmail.com</a> or call me at <a href="tel:+917010306825">7010306825</a>.</p>
+        <div class="section-container contact-container">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:gowthamp669@gmail.com"><img src="D:\Projects\portfolio-Website\logo\icons8-gmail-logo-48.png" alt="Email"> gowthamp669@gmail.com</a>
+                <a href="https://github.com/GOWTHAM6233" target="_blank"><img src="D:\Projects\portfolio-Website\logo\icons8-github-24.png" alt="GitHub"> GitHub</a>
+                <a href="https://www.linkedin.com/in/gowtham-p6233dot?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="D:\Projects\portfolio-Website\logo\icons8-linkedin-logo-48.png" alt="LinkedIn"> LinkedIn</a>
+                <a href="https://www.instagram.com/itz.me._gowtham?igsh=MXNiaXVmMTN6d3h2ZA==" target="_blank"><img src="D:\Projects\portfolio-Website\logo\icons8-instagram-logo-48.png" alt="Instagram"> Instagram</a>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Gowtham P. All rights reserved.</p>
+        <p>&copy; 2022 Gowtham P. All rights reserved.</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
