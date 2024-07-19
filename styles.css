@@ -615,3 +615,15 @@ footer {
 }
 
 
+.email-link {
+    text-decoration: none;
+    color: inherit; /* Keeps the text color the same as surrounding text */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between icon and text */
+}
+
+.email-link img {
+    width: 24px; /* Adjust the size of the email icon */
+    height: 24px;
+}
