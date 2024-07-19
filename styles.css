@@ -341,7 +341,36 @@ footer {
         background: #C0392B;
     }
     
+/* Visionary Section Styles */
+.visionary-container {
+    background: #ECF0F1;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
 
+.visionary-box {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.visionary-item {
+    margin-bottom: 2rem;
+}
+
+.visionary-item h3 {
+    color: #E74C3C;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
     .visionary-content {
         flex-direction: column;
     }
@@ -350,3 +379,239 @@ footer {
         margin-bottom: 1.5rem;
     }
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* General Container Styles */
+.section-container {
+    max-width: 800px; /* Reduced maximum width for sections */
+    margin: 0 auto; /* Center the container */
+    padding: 2rem 1rem;
+}
+
+/* Specific Container Styles for Different Sections */
+.home-container, 
+#introduction, 
+#skills, 
+#visionary, 
+#projects, 
+#resume {
+    max-width: 800px; /* Consistent width for all central sections */
+    margin: 0 auto; /* Center the section */
+    padding: 2rem 1rem; /* Consistent padding */
+}
+
+/* Visionary Section Styles */
+.visionary-container {
+    max-width: 800px; /* Consistent width */
+    margin: 0 auto; /* Center the section */
+}
+
+/* Skill Box Styles */
+.skill-box {
+    max-width: 250px; /* Adjust width of individual skill boxes */
+}
+
+/* Introduction Box Styles */
+.introduction-box {
+    max-width: 800px; /* Consistent width for introduction box */
+}
+
+/* Project Box Styles */
+.project {
+    max-width: 800px; /* Consistent width for project box */
+}
+
+/* Resume Button Styles */
+.resume-buttons .btn {
+    max-width: 200px; /* Adjust width of resume buttons */
+}
+
+/* Remove specific width restrictions for the contact section */
+.contact-container {
+    padding: 2rem;
+    background: #d9eef1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto; /* Allow full width */
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-links a {
+    display: flex;
+    align-items: center;
+    color: #030303;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-links a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+/* Box Styling for Sections */
+.section-container {
+    max-width: 800px; /* Consistent width for central sections */
+    margin: 0 auto; /* Center the container */
+    padding: 2rem 1rem; /* Consistent padding */
+    background: #fff; /* Background color for the box */
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Specific Container Styles */
+#introduction,
+#skills,
+#projects,
+#resume {
+    padding: 2rem 1rem;
+}
+
+/* Introduction Box Styling */
+.introduction-box {
+    background: #f9f9f9; /* Background color for the introduction box */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Category Styling */
+.skills-category {
+    background: #f9f9f9; /* Background color for skills categories */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem; /* Space between categories */
+}
+
+/* Project Box Styling */
+.project {
+    background: #f9f9f9; /* Background color for the project box */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Visionary Box Styling (Optional for consistency) */
+.visionary-box {
+    background: #fff; /* Background color for visionary box */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove specific width restrictions for the contact section */
+.contact-container {
+    padding: 2rem;
+    background: #d9eef1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto; /* Allow full width */
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-links a {
+    display: flex;
+    align-items: center;
+    color: #030303;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-links a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project-content img {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.project-description {
+    flex: 1;
+}
+
+
+
+
+
+.project {
+    margin-bottom: 2rem; /* Space between projects */
+    background: #ECF0F1;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3, .project h4, .project p {
+    margin: 0.5rem 0;
+}
+
+.project hr {
+    margin: 0.5rem 0;
+}
+
+.project-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border: 2px solid #2C3E50; /* Border for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 10px; /* Padding inside the container */
+    background: #fff; /* Background color of the container */
+}
+
+.project-image {
+    width: 100%; /* Full width of the container */
+    max-width: 300px; /* Max width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+.project-description {
+    text-align: center; /* Center align the text */
+}
+
+
