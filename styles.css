@@ -83,7 +83,7 @@ nav .menu-icon span {
 }
 .welcome-text {
     font-size: 30px;
-    color: #2003f9; /* Unique color for welcome text */
+    color:#c706f7; /* Unique color for welcome text */
     margin-top: 10px;
     font-family: 'Playfair Display', serif;
 }
@@ -182,65 +182,7 @@ h2 {
     width: 30px;
     margin-right: 10px;
 }
-
-.resume-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.resume-buttons .btn {
-    background: #E74C3C;
-    color: #fff;
-    padding: 1rem 2rem;
-    margin: 0 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    transition: background 0.3s;
-}
-
-.resume-buttons .btn:hover {
-    background: #C0392B;
-}
-
-.contact-container {
-    background: #d9eef1;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-links a {
-    display: flex;
-    align-items: center;
-    color: #030303;
-    text-decoration: none;
-    margin: 0.5rem 0;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-}
-
-.contact-links a img {
-    width: 30px;
-    margin-right: 10px;
-}
-
-footer {
-    background: #2C3E50;
-    color: #ECF0F1;
-    text-align: center;
-    padding: 1rem;
-    margin-top: auto;
-}
-
+/*-----------------------------------------------------------------------------*/
 /* Visionary Section Styles */
 
 .visionary-container {
@@ -273,6 +215,149 @@ footer {
     margin-bottom: 1rem;
     font-family: 'Playfair Display', serif;
 }
+/*-----------------------------------------------------------------------------*/
+
+.resume-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.resume-buttons .btn {
+    background: #E74C3C;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    transition: background 0.3s;
+}
+
+.resume-buttons .btn:hover {
+    background: #C0392B;
+}
+
+.contact-container {
+    background: #d9eef1;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*----------------------------------------------------------------------------------------------------*/
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-links a {
+    display: flex;
+    align-items: center;
+    color: #030303;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-links a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Contact Section Styling */
+#contact {
+    padding: 40px 0;
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Contact List Icons */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-list li {
+    margin: 0 10px;
+}
+
+.contact-list img {
+    width: 48px;
+    height: 48px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+footer {
+    background: #2C3E50;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+
 
 @media (max-width: 768px) {
     .home-container {
@@ -382,12 +467,6 @@ footer {
 
 
 }
-
-
-
-
-
-
 
 
 
@@ -627,3 +706,4 @@ footer {
     width: 24px; /* Adjust the size of the email icon */
     height: 24px;
 }
+
